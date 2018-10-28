@@ -1,6 +1,6 @@
 # ProjectVU K&D
 
-Hier staan onze files van onze webapplicatie. Daarnaast staat hieronder een uitleg wat te doen om webapplicatie werken te krijgen.
+Hier staan onze files van onze webapplicatie. Daarnaast staat hieronder een uitleg wat te doen om de webapplicatie werkend te krijgen.
 
 Op canvas zijn twee ontologieën ingeleverd. De ontologie “ontology_without_inference” is de ‘normale’ ontologie. Als deze ontologie geopend wordt in Protégé, kan de reasoner aangezet worden en wordt er allerlei data inferred. Omdat het niet mogelijk is de reasoner aan te zetten via javascript (als er een query wordt uitgevoerd op stardog als endpoint), kon de inferred data niet weergegeven worden in de applicatie. Daarom is de originele ontologie samen met de inferred axioms geëxporteerd als een nieuwe ontologie genaamd ‘ontology_with_inference”. Deze ontologie bestaat dus uit de originele ontologie en de data die inferred zou worden deze ontologie (maar nu dus vast erin staat). Omdat de reasoner nu niet meer gebruikt hoeft te worden, kan alle data nu wel op de webapplicatie weergegeven worden. Om de webapplicatie dus volledig te laten werken moet de ontologie ‘ontology_with_inference’ in de aangemaakte database op Stardog geupload worden. Deze database moet de naam ‘FinalProject’ hebben, omdat dit zo is aangegeven in het endpoint dat wij hebben gedefinieerd (zie html bestand). 
 
